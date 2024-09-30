@@ -9,7 +9,7 @@
 
 The **Calorie Counting App** is a web application built using **Java** for the backend and **React/TypeScript** for the frontend. It solves the [Advent of Code Day 1: Calorie Counting problem](https://adventofcode.com/2022/day/1) by processing a list of calorie values (either entered as text or uploaded via file). The app computes the maximum calories carried by a single elf and the sum of the top 3 calories carried by different elves. You can solve the problem using either **JavaScript** or **Java**, with both solutions provided within the app.
 
-- **JavaScript Solution**: Implemented in the `getTopCalories` function within the [CaloriePuzzle component](./frontend/src/components/CaloriePuzzle.tsx).
+- **JavaScript Solution**: Implemented in the `getTopCalories` function within the [CaloriesCalculator.ts file](./frontend/src/utils/CaloriesCalculator.ts).
 - **Java Solution**: Implemented in the `getTopCalories` method in the [CaloriesCalculator class](./CaloriesApi/src/main/java/com/example/CaloriesApi/Services/CaloriesCalculator.java).
 
 ## Technologies Used
